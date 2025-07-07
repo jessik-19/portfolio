@@ -36,6 +36,7 @@ main {
   border-left: 4px solid #0077cc;
 }
 
+<<<<<<< HEAD
 .github-button {
   display: inline-block;
   padding: 8px 16px;
@@ -107,10 +108,20 @@ main {
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   margin: 0 auto; /* Centre le slider dans son conteneur */
+=======
+.slider {
+  width: 100%;
+  overflow: hidden;
+  margin: 2em auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+>>>>>>> dc9b0474e946f5fd223bfbd30b9d382558d097e4
 }
 
 .slide-track {
   display: flex;
+<<<<<<< HEAD
   width: calc(1100%); /* Garde la logique de boucle */
   animation: scroll 40s linear infinite;
 }
@@ -127,11 +138,23 @@ main {
 
 .slide1 {
   width: 30%; /* 4 slides visibles dans le conteneur de 800% */
+=======
+  width: calc(800%); /* 8 images */
+  animation: scroll 40s linear infinite;
+}
+
+.slide {
+  width: 25%; /* 4 slides visibles dans le conteneur de 800% */
+>>>>>>> dc9b0474e946f5fd223bfbd30b9d382558d097e4
 }
 
 
 /* Responsive : 1 seule image sur petit écran */
+<<<<<<< HEAD
 @media (max-width: 1508px) {
+=======
+@media (max-width: 768px) {
+>>>>>>> dc9b0474e946f5fd223bfbd30b9d382558d097e4
   .slide {
     width: 100%;
   }
@@ -149,6 +172,7 @@ main {
 @keyframes scroll {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
+<<<<<<< HEAD
 }
 
 
@@ -287,3 +311,6 @@ main {
 .contact-form button:hover {
   background-color: #0d1b2a;
 }
+=======
+}
+>>>>>>> dc9b0474e946f5fd223bfbd30b9d382558d097e4
